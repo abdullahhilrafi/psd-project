@@ -1,0 +1,347 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.logoButton{
+	float: right;
+	border: 2px solid #c7c7c7;
+	padding: 6px 11px;
+	}
+	
+nav#pp {
+    margin-bottom: 15px;
+}
+
+#banner1{
+	background-image: url(../img/SecureLife-Planet.png);
+	height: 760px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+	
+}
+
+.middle {
+    text-align: center;
+    padding-top: 187px;
+}
+
+.middle h2 {
+    color: white;
+    font-size: 41px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.middle p {
+    color: white;
+    line-height: 13px;
+    font-size: 17px;
+    margin-bottom: x;
+}
+
+.button1 button {
+    border-radius: 100px;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box {
+    height: 300px;
+    width: 100%;
+    background: #DC3347;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(180deg);
+    margin-top: -247px;
+    position: absolute;
+    z-index: -2;
+}
+
+.box::after {
+    position: absolute;
+    content: "";
+    height: 160px;
+    background: white;
+    width: 100%;
+    border-radius: 0 0 50% 50%;
+}
+
+.afterHeader {
+    margin-top: -190px;
+    position: sticky;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.leftContent{
+	background-image:url(../img/side/Life-PlanetModal.png);
+	background-repeat: no-repeat;
+	height: 154vh;
+}
+
+.leftContent h1 {
+    padding-top: 55px;
+    font-size: 39px;
+    padding-left: 5px;
+}
+
+.leftContent h1 span {
+    color: #dc3535;
+    margin-left: 5px;
+}
+
+.leftContent p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+section#secandSection {
+    margin-top: 75px;
+}
+section#modalPlanet {margin-top: 60px;}
+.myLeftModal {
+    text-align: center;
+    width: 100%;
+    background: #8e8e8e6b;
+    height: 595px;
+}
+
+#modalPlanet select {
+    border-radius: 20px;
+    height: 45px;
+    width: 100%;
+}
+
+#exampleFormControlSelect1 {
+    width: 270px;
+    height: 45px;
+    border-radius: 50px;
+}
+.firstWrapModal {
+    margin-top: 40px;
+}
+
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+h2.forBuy {
+    padding: 25px 5px;
+    font-size: 27px;
+}
+
+
+.twowrapModal {
+    padding: 25px 5px;
+}
+
+input.form-control {
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.lastWrapModal {
+    margin-top: 40px;
+}
+
+button.btn.btn-danger.quotebtn {
+    padding: 14px;
+    width: 180px;
+    border-radius: 50px;
+}
+
+p.TermsPara {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.mainWrafer {
+    background: #281884;
+    padding: 5px 22px;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+
+.mainWrafer img {
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.mainWrafer p {
+    color: white;
+    padding: 24px 0px;
+}
+.mainWrafer2 {
+    margin-top: 70px;
+    background: #e42525;
+}
+.LeftIndependent img {
+    width: 100%;
+    height: auto;
+}
+
+.LeftIndependent {
+    margin-top: 50px;
+}
+
+.LeftIndependent p {
+    padding-top: 20px;
+}
+
+.middelContent {
+    background: #ffffff;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px -3px black;
+    margin-top: 70px;
+    transition: all 1s;
+}
+
+
+.middelContent:hover {
+    background: blue;
+    color: white;
+}
+
+.middelContent img {
+    padding-bottom: 10px;
+    margin-left: 42px;
+}
+
+.middelContent p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+.middelContent p:hover{color: white;}
+
+
+#listBanner{
+	background: url(../img/Banner/bgquote.png);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	padding: 90px;
+	margin-top: 50px;
+}
+
+.mid {
+    text-align: center;
+}
+
+.mid h1 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.mid button {
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.nnn {
+    margin-top: 80px;
+}
+
+.nnn h6 {
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: bold;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+
+.nnn p {
+    font-size: 20px;
+    padding-bottom: 55px;
+}
+
+.nnn span {
+    font-size: 20px;
+}
+
+.nnn img {
+    padding: 1.5rem !improtent;
+}
+
+section#hhh {
+    margin-bottom: 65px;
+}
+
+footer#footerSection {
+    background: #202F64;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%/100px 100px 0 0;
+    border-top: 15px solid #E03448;
+}
+
+.LogoFooter {
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+}
+
+
+@media (max-width: 560px){
+    .LogoFooter{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 560px)
+.blank {
+    height: 208px;
+    top: 452px;
+}
+
+.footerleft, .footerleft a {
+    color: white;
+}
+
+p.footright {
+    color: #eaeaea;
+}
+
+
+
+
+.box {
+    height: 300px;
+    width: 100%;
+    background: #DC3347;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(180deg);
+    margin-top: -247px;
+    position: absolute;
+    z-index: -2;
+}
+
+
+.box::after {
+    position: absolute;
+    content: "";
+    height: 160px;
+    background: white;
+    width: 100%;
+    border-radius: 0 0 50% 50%;
+}
